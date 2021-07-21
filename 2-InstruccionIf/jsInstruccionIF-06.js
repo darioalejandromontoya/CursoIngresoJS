@@ -1,8 +1,26 @@
+/*Montoya Dario Alejandro
+DIV H
+ejercicio 06
+*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	var edad;
+	edad=document.getElementById("txtIdEdad").value;
+	edad=parseInt(edad);
+	if(edad <13)
+	{
+		alert("Usted es un niño");
+	}
+	else
+	{
+			if (edad >=13 && edad<=17)
+		{
+			alert("Usted es adolescente");
+		}
+			else
+	    {
+		alert("Usted es adulto");
+	    }
 
-
-
-}//FIN DE LA FUNCIÓN
+	}		
+}//fin de la funcion

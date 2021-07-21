@@ -1,5 +1,15 @@
 
 function mostrar()
 {
-	alert("uno");
+
+
+
+
+
+
+
+
+
+
+
 }
